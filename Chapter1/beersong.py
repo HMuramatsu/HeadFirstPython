@@ -9,5 +9,5 @@ for beer_num in range(99, 0, -1):
     else:
         if (beer_num - 1 == 1):
             word = "bottle"
-        print(beer_num -1, word, "of beer on the wall.")
+        print(beer_num - 1, word, "of beer on the wall.")
     print()

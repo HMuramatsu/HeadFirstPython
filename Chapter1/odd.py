@@ -10,7 +10,7 @@ for i in range(5):
 
     if right_this_minute in odds:
         print("分の値は奇数。")
-    else: 
+    else:
         print("分の値は奇数ではない。")
     wait_time = random.randint(1, 60)
     time.sleep(wait_time)
